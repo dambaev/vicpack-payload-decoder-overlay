@@ -4,8 +4,8 @@ stdenv.mkDerivation {
 
   src = fetchgit {
     url = "https://github.com/dambaev/vicpack-payload-decoder.git";
-    rev = "0908382e640658933f6fee2965f1572552bac6f5";
-    sha256 = "01r07i7f8qga05da3i5wl1hjvk8583n1p3b5a7qgwqq8kznvzqy2";
+    rev = "3cae32102241ecbe7954b23d27b9ebd770bfea86";
+    sha256 = "0d9f7s7lx3zslcjmwx25ivbvvzx75yld61akl9w0avz5cw4jjqb6";
   };
   buildInputs = with pkgs;
   [ ats2
